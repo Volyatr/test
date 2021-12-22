@@ -1,0 +1,93 @@
+
+body {
+    background-color: #EFEFEF;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.menuListtop{
+    display: flex;
+    list-style-type: none; /* убирает маркеры, которые возникают при создании ul */
+    justify-content: center; /*центрируем  */
+    padding-left: 0;
+}
+/* ДЛя приданиястилей элементам только конкретных элементов пишеи ю класс>тэг эелемента  */
+.menuListtop>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menuListtop>li>a {
+    text-decoration: none;
+    color: black;    
+}
+.wrapper{
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: o auto ;
+}
+.heder{     
+    background-color: #fff;;
+}
+.content-in-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo{
+    color: #66C05D;
+    font-size: 36;
+    font-weight: 700;
+}
+.header-info>span{
+    font-size: 16px;    
+}
+.header-info>button { 
+    font-size: 14px;
+    border-radius: 25px;
+   border: 2px solid #66C05D;
+   background-color: transparent;
+   padding: 12px 26px 13px 27px;
+   margin-left: 30px;
+}
+hr{
+    border: none;
+    background-color: #EFEFEF;
+    height: 1px;
+}
+/* Начало стилей для меню и баннера */
+.in-middle {
+    padding: 15px 0;
+}
+.menuListmid {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.menuListmid>li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menuListmid>li>a {
+    text-decoration: none;
+}
+.in-middle .menuListmid {
+    font-size: 16px;
+    margin: 0;
+}
+.banner {
+    background-image: url(../img/Rectangle\ 2.png);
+    padding:  100px 0 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+}
+.botton {
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    padding: 5px;
+}
